@@ -1,0 +1,9 @@
+@import 'register';
+@import 'login';
+
+.page {
+    &.auth {
+        background-color: white;
+    }
+}
+

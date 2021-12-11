@@ -1,0 +1,38 @@
+.page.auth.register {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.page.auth.register .splash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.page.auth.register .splash .logo {
+  width: 50%;
+  height: auto;
+}
+.page.auth.register .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: blue;
+}
+
+.page.auth.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page.auth.login .credentials-box {
+  width: 320px;
+}
+.page.auth.login .credentials-box .logo {
+  width: 100px;
+  height: auto;
+}
+
+.page.auth {
+  background-color: white;
+}

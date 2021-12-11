@@ -1,0 +1,18 @@
+.page {
+    &.auth {
+        &.login {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .credentials-box {
+                width: 320px;
+
+                .logo {
+                    width: 100px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
